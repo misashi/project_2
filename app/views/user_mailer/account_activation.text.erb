@@ -1,5 +1,5 @@
 Hi <%= @user.name %>,
 
-Hi from Yang, please click on the activation link below!
+Hi from Yang, please click on the activation link below! You have roughly 45 minutes to get it done =)
 
 <%= edit_account_activation_url(@user.activation_token, email: @user.email) %>
